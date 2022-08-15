@@ -1,0 +1,110 @@
+
+body {
+  margin: 0%;
+}
+
+
+.App {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.notes-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+
+
+
+}
+
+.note {
+  background-color: burlywood;
+  word-wrap: break-word;
+  
+  border-radius: 15px;
+  padding: 1rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.note.new {
+  background-color: blue;
+}
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+}
+
+.button-postit {
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.button-postit:hover {
+  background-color: aliceblue;
+  cursor:pointer;
+}
+
+textarea {
+  resize: none;
+  border: none;
+}
+textarea:focus {
+  outline: none;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+}
+
+.search {
+  background-color: grey;
+  border-radius: 15px;
+  display:flex;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  
+}
+
+.search input {
+  background-color: grey;
+  color: aliceblue;
+  border: none;
+}
+.search input:focus{
+  outline: none;
+}
+.search-icon {
+  padding: 5px;
+}
+
+.Header-postit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  font-size: 60pt;
+}
+
+.header-button {
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.header-button:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
