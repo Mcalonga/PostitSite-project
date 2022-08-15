@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PostitSite-project/static/css/main.49de5d84.css",
+    "main.js": "/PostitSite-project/static/js/main.db080945.js",
+    "static/js/787.8d081be7.chunk.js": "/PostitSite-project/static/js/787.8d081be7.chunk.js",
+    "index.html": "/PostitSite-project/index.html",
+    "main.49de5d84.css.map": "/PostitSite-project/static/css/main.49de5d84.css.map",
+    "main.db080945.js.map": "/PostitSite-project/static/js/main.db080945.js.map",
+    "787.8d081be7.chunk.js.map": "/PostitSite-project/static/js/787.8d081be7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49de5d84.css",
+    "static/js/main.db080945.js"
+  ]
+}
